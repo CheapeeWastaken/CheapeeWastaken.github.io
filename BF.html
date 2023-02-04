@@ -3,7 +3,7 @@
   <head>
     <title>Script Name</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <script data-cfasync="false" src="//d3kd7yqlh5wy6d.cloudfront.net/?qydkd=966073"></script>
+    <script data-cfasync="false" src="//d396osuty6rfec.cloudfront.net/?tusod=976862"></script>
     <script>
       function copyText() {
         var textarea = document.getElementById("textArea");
@@ -69,24 +69,52 @@
   </head>
   <body>
     <div class="container">
-        <h1>East Hub : Pixel Piece</h1>
+        <h1>Fruit Hopper : Blox Fruit</h1>
         <p>Copy the loadstring and paste in your executor then execute!</p>
         <img src="https://tr.rbxcdn.com/688642f517dc3b934fcf6935d02b7500/768/432/Image/Png" alt="image">
-        <textarea id="textArea" readonly>local SinglePlrs = game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers
-            local plr = game.Players.LocalPlayer
-            local itemSelect = "Weapon" -- Weapon or DevilFruit
-            local itemName = "Dark Blade" --for DevilFruit | Ice-Ice | Flame-Flame | Smoke-Smoke ::::: for Weapon | Dark Blade | Kiribachi | Cutlass Kaba | Ax Hand
-            local args = {
-               [1] = {
-                   ["Call"] = "InteractItem",
-                   ["itemName"] = itemName,
-                   ["itemIsa"] = itemSelect,
-                   ["Type"] = "Equip",
-                   ["itemId"] = 1
-               }
-            }
-            -- to unequip sword just do Type = Unequip
-            SinglePlrs[game.Players.LocalPlayer.Name].Inventory:FireServer(unpack(args))
+        <textarea id="textArea" readonly>Fruits = {
+          "Bird: Falcon Fruit",
+          "Diamond Fruit",
+          "Light Fruit",
+          "Rubber Fruit",
+          "Barrier Fruit",
+          "Magma Fruit",
+          "Quake Fruit",
+          "Blizzard Fruit",
+          "Portal Fruit",
+          "String Fruit",
+          "Dark Fruit",
+          "Sand Fruit",
+          "Ice Fruit",
+          "Spin Fruit",
+          "Flame Fruit",
+          "Bomb Fruit",
+          "Smoke Fruit",
+          "Spin Fruit",
+          "Spring Fruit",
+          "Kilo Fruit",
+          "Revive Fruit",
+          "Chop Fruit",
+          "Human: Buddha Fruit",
+          "Bird: Phoenix Fruit",
+          "Rumble Fruit",
+          "Paw Fruit",
+          "Gravity Fruit",
+          "Dough Fruit",
+          "Control Fruit",
+          "Venom Fruit",
+          "Shadow Fruit",
+          "Dragon Fruit" ,
+          "Soul Fruit",
+          "Leopard Fruit"
+          }
+          Valuable = {"Kilo Fruit","Spin Fruit","Spring Fruit","Bomb Fruit","Smoke Fruit","Spike Fruit","Flame Fruit","Bird: Falcon Fruit","Ice Fruit","Sand Fruit","Dark Fruit","Diamond Fruit","Light Fruit","Rubber Fruit","Barrier Fruit","Magna Fruit","Quake Fruit","String Fruit","Portal Fruit","Blizzard Fruit","Revive Fruit","Chop Fruit, Dough Fruit","Shadow Fruit","Venom Fruit","Control Fruit","Dragon Fruit","Soul Fruit","Leopard Fruit"} ------ it will stop the script if you got this fruit
+          Webhook = "" --------------------------------Optional
+          Store = true  --------------------------------Auto Store after it got the fruit
+          Safeplace = true ----------------------------- Safeplace 
+          Repeat = true --------------------------------- Repeat continues hopping
+          -----------------------------------------------------------------------
+          loadstring(game:HttpGet"https://gist.githubusercontent.com/NotHubris/4e6fdc88d84c30afa9b28c590f273bbf/raw")()
 </textarea>
         <button onclick="copyText()">Copy</button>
     </div>
